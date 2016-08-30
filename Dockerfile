@@ -1,6 +1,6 @@
 # docker build -t mpapec/convos .
 FROM alpine:3.4
-MAINTAINER Convos@Mojo
+MAINTAINER mpapec@irc://irc.freenode.net/#convos
 
 RUN apk update && \
   apk add perl perl-io-socket-ssl perl-dev g++ make openssl openssl-dev wget curl && \
